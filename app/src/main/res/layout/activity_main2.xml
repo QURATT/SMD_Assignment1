@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:orientation="horizontal">
+            <!--            android:weightSum="1">-->
+            <!--            <LinearLayout-->
+            <!--                android:layout_width="0dp"-->
+            <!--                android:layout_height="match_parent"-->
+            <!--                android:layout_weight=".5">-->
+            <!--            </LinearLayout>-->
+            <!--            <LinearLayout-->
+            <!--                android:layout_width="0dp"-->
+            <!--                android:layout_height="match_parent"-->
+            <!--                android:layout_weight=".5">-->
+            <!--            </LinearLayout>-->
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="textEnd"
+                android:textAllCaps="false"
+                android:textSize="13.5dp"
+                android:backgroundTint="@color/black"
+                android:text="Sign In" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.55"
+            android:layout_gravity="left"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            >
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.4"
+                android:padding="0dp"
+                android:layout_gravity="start"
+                android:paddingHorizontal="50dp"
+                android:src="@drawable/musify1">
+            </ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.9"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.6"
+                android:text="   Musify"
+                android:textSize="40dp"
+                android:textColor="@color/white"
+                android:textAlignment="textStart">
+            </TextView>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_weight="1.1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/horizontaltab"
+                android:scrollbarSize="100dp">
+            </ImageView>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\t\t\t\t\t\tName"
+                android:textColor="#FFAA00"></EditText>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.1"
+            android:layout_gravity="center">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/horizontaltab"
+                android:scrollbarSize="100dp">
+            </ImageView>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\t\t\t\t\t\tEmail"
+                android:textColor="#FFAA00">
+            </EditText>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.1"
+            android:layout_gravity="center">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/horizontaltab"
+                android:scrollbarSize="100dp">
+            </ImageView>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\t\t\t\t\t\tPassword"
+                android:textColor="#FFAA00">
+            </EditText>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Show\t\t\t\t\t\t"
+                android:textAlignment="textEnd"
+                android:textColor="#FFAA00"></EditText>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.6"
+                android:text="\t\t\t\t\tGender"
+                android:textSize="20dp"
+                android:textColor="#FFAA00"
+                android:textAlignment="textStart">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1.4"
+            android:weightSum="3">
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="fitEnd"
+                android:scaleX="0.97"
+                android:scaleY="0.98"
+                android:src="@drawable/male">
+            </ImageView>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:scaleX="0.95"
+                android:scaleY="0.96"
+                android:src="@drawable/female">
+            </ImageView>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="fitStart"
+                android:scaleX="0.9"
+                android:scaleY="0.9"
+                android:src="@drawable/rathernotsay">
+            </ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="1"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.15">
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:buttonTint="@color/white">
+                </CheckBox>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.85">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="\nI would like to receive your newsletter and other
+promotional information"
+                    android:textSize="16dp"
+                    android:textColor="#91AFE3">
+                </TextView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.85">
+            <!--            android:orientation="horizontal">-->
+
+            <ImageButton
+                android:id="@+id/signupbutton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/circle"
+                android:backgroundTint="@color/black"/>
+            <!--                android:background="@drawable/circle"/>-->
+            <!--            android:textAllCaps="false"-->
+            <!--            android:textColor="@color/white"-->
+            <!--                android:text="Sign Up"-->
+
+            <TextView
+                android:id="@+id/editText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="102dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="99dp"
+                android:layout_marginBottom="8dp"
+                android:ems="10"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:text="Sign Up"
+                android:textSize="17dp"
+                android:textColor="@color/white"/>
+
+
+        </RelativeLayout>
+        <!--&lt;!&ndash;            <Button&ndash;&gt;-->
+        <!--&lt;!&ndash;                android:id="@+id/signupbutton"&ndash;&gt;-->
+        <!--&lt;!&ndash;                android:layout_width="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;                android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;                android:layout_weight="0.9"&ndash;&gt;-->
+        <!--&lt;!&ndash;                android:background="@drawable/circle"&ndash;&gt;-->
+        <!--&lt;!&ndash;                android:text="Sign Up"&ndash;&gt;-->
+        <!--&lt;!&ndash;                android:textAlignment="center"&ndash;&gt;-->
+        <!--&lt;!&ndash;                >&ndash;&gt;-->
+        <!--&lt;!&ndash;                <TextView&ndash;&gt;-->
+        <!--&lt;!&ndash;                    android:id="@+id/textView"&ndash;&gt;-->
+        <!--&lt;!&ndash;                    android:layout_width="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;                    android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;                    android:layout_weight="1"&ndash;&gt;-->
+        <!--&lt;!&ndash;                    android:text="Sign Up"&ndash;&gt;-->
+        <!--&lt;!&ndash;                    android:textColor="@color/white"/>&ndash;&gt;-->
+        <!--&lt;!&ndash;                <EditText&ndash;&gt;-->
+        <!--&lt;!&ndash;                    android:layout_width="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;                    android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;                    android:text="Sign Up"&ndash;&gt;-->
+        <!--&lt;!&ndash;                    android:textColor="@color/black"&ndash;&gt;-->
+        <!--&lt;!&ndash;                    android:textAlignment="center">&ndash;&gt;-->
+        <!--&lt;!&ndash;                </EditText>&ndash;&gt;-->
+        <!--        </RelativeLayout>-->
+    </LinearLayout>
+</LinearLayout>
+
+
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/imageView6"-->
+    <!--        android:layout_width="416dp"-->
+    <!--        android:layout_height="85dp"-->
+    <!--        app:srcCompat="@drawable/horizontaltab"-->
+    <!--        tools:ignore="MissingConstraints"-->
+    <!--        tools:layout_editor_absoluteX="-2dp"-->
+    <!--        tools:layout_editor_absoluteY="183dp" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textView"-->
+    <!--        android:layout_width="87dp"-->
+    <!--        android:layout_height="34dp"-->
+    <!--        android:text="Sign In"-->
+    <!--        android:textAlignment="center"-->
+    <!--        android:textColor="@color/white"-->
+    <!--        android:textSize="24dp"-->
+    <!--        tools:layout_editor_absoluteX="327dp"-->
+    <!--        tools:layout_editor_absoluteY="-4dp"-->
+    <!--        tools:ignore="MissingConstraints" />-->
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/imageView2"-->
+    <!--        android:layout_width="141dp"-->
+    <!--        android:layout_height="87dp"-->
+    <!--        app:srcCompat="@drawable/musify"-->
+    <!--        tools:ignore="MissingConstraints"-->
+    <!--        tools:layout_editor_absoluteX="16dp"-->
+    <!--        tools:layout_editor_absoluteY="41dp" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textView2"-->
+    <!--        android:layout_width="130dp"-->
+    <!--        android:layout_height="45dp"-->
+    <!--        android:text="Musify"-->
+    <!--        android:textAlignment="center"-->
+    <!--        android:textColor="@color/white"-->
+    <!--        android:textSize="36dp"-->
+    <!--        tools:ignore="MissingConstraints"-->
+    <!--        tools:layout_editor_absoluteX="27dp"-->
+    <!--        tools:layout_editor_absoluteY="128dp" />-->
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/imageView5"-->
+    <!--        android:layout_width="416dp"-->
+    <!--        android:layout_height="85dp"-->
+    <!--        app:srcCompat="@drawable/horizontaltab"-->
+    <!--        tools:ignore="DuplicateIds,MissingConstraints"-->
+    <!--        tools:layout_editor_absoluteX="-2dp"-->
+    <!--        tools:layout_editor_absoluteY="353dp" />-->
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/imageView7"-->
+    <!--        android:layout_width="416dp"-->
+    <!--        android:layout_height="85dp"-->
+    <!--        app:srcCompat="@drawable/horizontaltab"-->
+    <!--        tools:ignore="MissingConstraints"-->
+    <!--        tools:layout_editor_absoluteX="-3dp"-->
+    <!--        tools:layout_editor_absoluteY="268dp" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textView3"-->
+    <!--        android:layout_width="97dp"-->
+    <!--        android:layout_height="31dp"-->
+    <!--        android:text="Name"-->
+    <!--        android:textAlignment="textStart"-->
+    <!--        android:textColor="#D6A100"-->
+    <!--        android:textSize="20dp"-->
+    <!--        tools:ignore="MissingConstraints"-->
+    <!--        tools:layout_editor_absoluteX="46dp"-->
+    <!--        tools:layout_editor_absoluteY="207dp" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textView9"-->
+    <!--        android:layout_width="97dp"-->
+    <!--        android:layout_height="31dp"-->
+    <!--        android:text="Email"-->
+    <!--        android:textAlignment="textStart"-->
+    <!--        android:textColor="#D6A100"-->
+    <!--        android:textSize="20dp"-->
+    <!--        tools:ignore="MissingConstraints"-->
+    <!--        tools:layout_editor_absoluteX="46dp"-->
+    <!--        tools:layout_editor_absoluteY="293dp" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textView10"-->
+    <!--        android:layout_width="97dp"-->
+    <!--        android:layout_height="31dp"-->
+    <!--        android:text="Password"-->
+    <!--        android:textAlignment="textStart"-->
+    <!--        android:textColor="#D6A100"-->
+    <!--        android:textSize="20dp"-->
+    <!--        tools:ignore="MissingConstraints"-->
+    <!--        tools:layout_editor_absoluteX="46dp"-->
+    <!--        tools:layout_editor_absoluteY="379dp" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textView6"-->
+    <!--        android:layout_width="71dp"-->
+    <!--        android:layout_height="26dp"-->
+    <!--        android:text="Show"-->
+    <!--        android:textAlignment="textEnd"-->
+    <!--        android:textColor="#D6A100"-->
+    <!--        android:textSize="20dp"-->
+    <!--        tools:ignore="MissingConstraints"-->
+    <!--        tools:layout_editor_absoluteX="309dp"-->
+    <!--        tools:layout_editor_absoluteY="379dp" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textView7"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Gender"-->
+    <!--        android:textAlignment="textStart"-->
+    <!--        android:textColor="#D6A100"-->
+    <!--        android:textSize="20dp"-->
+    <!--        tools:ignore="MissingConstraints"-->
+    <!--        tools:layout_editor_absoluteX="35dp"-->
+    <!--        tools:layout_editor_absoluteY="450dp" />-->
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/imageView9"-->
+    <!--        android:layout_width="29dp"-->
+    <!--        android:layout_height="46dp"-->
+    <!--        app:srcCompat="@drawable/tickbox"-->
+    <!--        tools:layout_editor_absoluteX="17dp"-->
+    <!--        tools:layout_editor_absoluteY="576dp"-->
+    <!--        tools:ignore="MissingConstraints" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textView8"-->
+    <!--        android:layout_width="347dp"-->
+    <!--        android:layout_height="40dp"-->
+    <!--        android:text="I would like to receive your newsletter and other-->
+    <!--promotional information."-->
+    <!--        android:textColor="#2D5B80"-->
+    <!--        android:textSize="16dp"-->
+    <!--        tools:layout_editor_absoluteX="59dp"-->
+    <!--        tools:layout_editor_absoluteY="582dp"-->
+    <!--        tools:ignore="MissingConstraints" />-->
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/imageView8"-->
+    <!--        android:layout_width="83dp"-->
+    <!--        android:layout_height="75dp"-->
+    <!--        app:srcCompat="@drawable/male"-->
+    <!--        tools:layout_editor_absoluteX="66dp"-->
+    <!--        tools:layout_editor_absoluteY="486dp"-->
+    <!--        tools:ignore="MissingConstraints" />-->
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/imageView10"-->
+    <!--        android:layout_width="77dp"-->
+    <!--        android:layout_height="76dp"-->
+    <!--        app:srcCompat="@drawable/female"-->
+    <!--        tools:layout_editor_absoluteX="167dp"-->
+    <!--        tools:layout_editor_absoluteY="486dp"-->
+    <!--        tools:ignore="MissingConstraints" />-->
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/imageView11"-->
+    <!--        android:layout_width="78dp"-->
+    <!--        android:layout_height="75dp"-->
+    <!--        app:srcCompat="@drawable/rathernotsay"-->
+    <!--        tools:layout_editor_absoluteX="267dp"-->
+    <!--        tools:layout_editor_absoluteY="486dp"-->
+    <!--        tools:ignore="MissingConstraints" />-->
+
+
