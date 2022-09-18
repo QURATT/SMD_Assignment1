@@ -1,56 +1,284 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <LinearLayout
-        android:id="@+id/linearLayout3"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:background="@color/black"
-        android:orientation="vertical"
-        android:paddingVertical="16dp"
-        tools:layout_editor_absoluteX="-179dp"
-        tools:layout_editor_absoluteY="16dp"></LinearLayout>
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="425dp"
+        android:text="Activity 17"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="39dp" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="221dp"
-        android:layout_height="240dp"
-        app:layout_constraintBottom_toBottomOf="@+id/editTextTextPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/musify" />
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="356dp"
+        android:text="Activity 18"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="39dp" />
 
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="293dp"
+        android:text="Activity 19"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="39dp" />
 
-    <EditText
-        android:id="@+id/editTextTextPersonName"
-        android:layout_width="248dp"
-        android:layout_height="80dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Musify"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="55dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/linearLayout3" />
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="40dp"
+        android:text="Activity 23"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="39dp" />
 
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="101dp"
+        android:text="Activity 22"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="39dp" />
 
-    <!--    <TextView-->
-    <!--        android:layout_width="wrap_content"-->
-    <!--        android:layout_height="wrap_content"-->
-    <!--        android:text="Hello World!"-->
-    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
-    <!--        app:layout_constraintEnd_toEndOf="parent"-->
-    <!--        app:layout_constraintStart_toStartOf="parent"-->
-    <!--        app:layout_constraintTop_toTopOf="parent" />-->
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="170dp"
+        android:text="Activity 21"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="39dp" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="232dp"
+        android:text="Activity 20"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="39dp" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="480dp"
+        android:text="Activity 15"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="39dp" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="538dp"
+        android:text="Activity 14"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="39dp" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="601dp"
+        android:text="Activity 13"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="39dp" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="601dp"
+        android:text="Activity 13"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="39dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="252dp"
+        android:layout_marginBottom="441dp"
+        android:text="Activity 4"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="191dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="250dp"
+        android:layout_marginBottom="559dp"
+        android:text="Activity 2"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="87dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="250dp"
+        android:layout_marginBottom="498dp"
+        android:text="Activity 3"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="135dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="254dp"
+        android:layout_marginBottom="624dp"
+        android:text="Activity 1"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="39dp" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="655dp"
+        android:text="Activity 12"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="606dp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="239dp"
+        android:layout_marginBottom="25dp"
+        android:text="Activity 11"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="548dp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="237dp"
+        android:layout_marginBottom="79dp"
+        android:text="Activity 10"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="490dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="247dp"
+        android:layout_marginBottom="143dp"
+        android:text="Activity 9"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="431dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="244dp"
+        android:layout_marginBottom="205dp"
+        android:text="Activity 8"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="383dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="246dp"
+        android:layout_marginBottom="262dp"
+        android:text="Activity 7"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="335dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="247dp"
+        android:layout_marginBottom="324dp"
+        android:text="Activity 6"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="287dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="248dp"
+        android:layout_marginBottom="384dp"
+        android:text="Activity 5"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="239dp" />
+</RelativeLayout>

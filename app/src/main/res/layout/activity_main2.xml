@@ -238,8 +238,8 @@ promotional information"
                 android:id="@+id/signupbutton"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/circle"
-                android:backgroundTint="@color/black"/>
+                android:backgroundTint="@color/black"
+                android:src="@drawable/circle" />
             <!--                android:background="@drawable/circle"/>-->
             <!--            android:textAllCaps="false"-->
             <!--            android:textColor="@color/white"-->
